@@ -12,7 +12,7 @@ Tangential objectives: Practice `React` + `TypeScript`, `Emotion`, `ReactRouter`
 
 ## TODOs
 
-- [ ] Implement the design using CSS Flow layout mode.
-- [ ] Implement the design using CSS Flexbox layout mode.
+- [ ] Implement the design using CSS Flow layout mode inside the Profile Card.
+- [ ] Implement the design using CSS Flexbox layout mode inside the Profile Card
 - [ ] Implement routing to switch between the Flexbox and the Grid versions.
 - [ ] Improve the file structure of the project.
