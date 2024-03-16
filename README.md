@@ -10,7 +10,7 @@ Main objective: Improve CSS skills.
 
 Tangential objectives: Practice `React` + `TypeScript`, `Emotion`, `ReactRouter`.
 
-Among other things this project serves as an illustration for my [Developer productivity LinkedIn article](https://www.linkedin.com/pulse/wip-how-retain-your-skills-knowledge-developer-tyoma-deev-k9bee), which is also WIP at the moment.
+Among other things, this project serves as an illustration for my [Developer productivity LinkedIn article](https://www.linkedin.com/pulse/wip-how-retain-your-skills-knowledge-developer-tyoma-deev-k9bee), which is also WIP at the moment.
 
 ## TODOs
 
