@@ -1,26 +1,9 @@
-import styled from "@emotion/styled";
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  margin-top: 24px;
-  text-align: center;
-`;
-const UserName = styled.h2`
-  color: #fff;
-`;
-const UserLocation = styled.p`
-  color: #c4f82a;
-`;
-
-const UserProfileAbout = styled.p`
-  margin-top: 24px;
-  color: white;
-  &::before,
-  &::after {
-    content: '"';
-  }
-`;
-
+import {
+  UserLocation,
+  UserName,
+  UserProfileAbout,
+  Wrapper,
+} from "./ProfileHeader.styles";
 interface ProfileHeaderProps {
   userBio: string;
   userName: string;
