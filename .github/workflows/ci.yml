@@ -28,9 +28,9 @@ jobs:
       # Set up node (and npm)
       - name: Setup Node
         uses: actions/setup-node@v4
-          with:
-            node-version: 20
-            cache: "npm"
+        with:
+          node-version: 20
+          cache: "npm"
       - run: npm ci
       # Build the project
       - run: npm run build
