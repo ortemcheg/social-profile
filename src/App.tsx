@@ -1,29 +1,7 @@
 import { ProfileHeader } from "./components/ProfileHeader";
-import { SocialLink, SocialLinkBlock } from "./components/SocialLinksBlock";
+import { SocialLinkBlock } from "./components/SocialLinksBlock";
 import { BackgroundWrapper, CardWrapper, ImagePlaceHolder } from "./App.styles";
-
-const mockLinks: SocialLink[] = [
-  {
-    linkText: "GitHub",
-    linkHref: "#",
-  },
-  {
-    linkText: "Frontend Mentor",
-    linkHref: "#",
-  },
-  {
-    linkText: "LinkedIn",
-    linkHref: "#",
-  },
-  {
-    linkText: "Twitter",
-    linkHref: "#",
-  },
-  {
-    linkText: "Instagram",
-    linkHref: "https://instagram.com/tyoma.deev",
-  },
-];
+import { mockLinks } from "./mockData";
 
 function App() {
   return (
