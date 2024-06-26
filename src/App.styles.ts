@@ -39,7 +39,7 @@ const imageFadeIn = keyframes`
     }
 `;
 
-export const ImagePlaceHolder = styled.div`
+export const ImagePlaceHolder = styled.img`
   width: 88px;
   height: 88px;
   margin: 0 auto;

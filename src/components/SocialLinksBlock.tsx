@@ -12,7 +12,7 @@ export const SocialLinkBlock = ({ links }: SocialLinksBlockProps) => {
   const renderedLinks = useMemo(
     () =>
       links.map((link) => (
-        <li>
+        <li key={link.linkText}>
           <SocialLink href={link.linkHref}>{link.linkText}</SocialLink>
         </li>
       )),
